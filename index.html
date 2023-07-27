@@ -6,19 +6,28 @@
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    
+
 </head>
-<body>
+<body class="font-lato">
     <header>
         <nav class="max-w-screen-xl mx-auto px-8 md:px-16 lg:px-24 py-5 my-10 text-white">
           <div class="navbar bg-base-100 bg-red-500 rounded-full	">
-            <div class="flex-1">
+            <div class="flex-1 hidden md:inline-block">
               <a class="btn btn-ghost normal-case text-sm">Home</a>
               <a class="btn btn-ghost normal-case text-sm">About us</a>
               <a class="btn btn-ghost normal-case text-sm">Shop</a>
               <a class="btn btn-ghost normal-case text-sm">All fruits</a>
             </div>
+            <div class="dropdown">
+              <lavel tabindex="0" class="btn btn-ghost btn-circle avatar">
             <div class="w-10 rounded-full">
               <img src="logo.png" />
+            </div>
+            </lavel>
             </div>
             <div class="flex-1 text-xl">
               <a class="btn btn-ghost normal-case text-xl">Fruits Burst</a>
